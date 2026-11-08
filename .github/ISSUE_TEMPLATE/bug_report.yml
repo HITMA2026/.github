@@ -1,0 +1,67 @@
+name: 问题报告
+description: 报告代码、硬件、配置或文档中的问题。
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先搜索已有 Issue，并在发生问题的项目仓库中报告。填写实际使用的版本和环境；日志、截图及附件请移除凭据、个人信息和不宜公开的数据。
+  - type: input
+    id: version
+    attributes:
+      label: 版本或提交
+      description: 填写标签或提交 SHA；无法确定时说明获取项目的方式和时间。
+      placeholder: 例如 v1.0.0、完整提交 SHA，或说明版本未知的原因
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境与配置
+      description: 按实际情况填写操作系统、工具链、依赖、硬件、固件、配置和验证场景；不适用的内容可以省略。
+      placeholder: |
+        操作系统与工具链：
+        关键依赖：
+        硬件与固件（如适用）：
+        配置与场景：
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤
+      description: 列出执行目录、命令或操作；文档问题请给出文件位置。暂时无法稳定复现时说明触发条件和频率。
+      placeholder: |
+        1. 使用……
+        2. 执行……
+        3. 观察到……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+      description: 你预期应该发生什么？
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      description: 实际发生了什么？请保留关键错误信息。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 日志、截图或其他证据
+      description: 可粘贴相关内容或添加附件链接，并注明对应时间和版本。
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: 已尝试的方法与影响
+      description: 可补充尝试过的排查方法、替代办法和受影响范围。
+    validations:
+      required: false
