@@ -11,3 +11,5 @@
 - 新建或整理项目：[README 范本](https://github.com/HITMA2026/.github/blob/main/templates/README-template.md)
 - 参与项目维护：[贡献与协作说明](https://github.com/HITMA2026/.github/blob/main/CONTRIBUTING.md)
 - 记录测试结果：[验证记录范本](https://github.com/HITMA2026/.github/blob/main/templates/validation-record-template.md)
+
+## 欢迎各位与我们交流!!
