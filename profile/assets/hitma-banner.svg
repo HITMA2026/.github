@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">哈尔滨工业大学航模协会 HITMA</title>
+  <desc id="description">成立于1990年，开展飞行器设计、自主控制与工程实践。深蓝色背景与固定翼、四旋翼及模型火箭示意图。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1b30" />
+      <stop offset="1" stop-color="#173c59" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#79b8d2" stroke-width="0.6" opacity="0.15" />
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="14" fill="url(#background)" />
+  <rect width="1200" height="320" rx="14" fill="url(#grid)" />
+  <path d="M650 263C757 105 1006 58 1168 117" fill="none" stroke="#70d7e6" stroke-width="1.5" stroke-dasharray="5 9" opacity="0.45" />
+  <circle cx="931" cy="158" r="112" fill="none" stroke="#6dbbd1" opacity="0.16" />
+  <circle cx="931" cy="158" r="77" fill="none" stroke="#6dbbd1" opacity="0.2" />
+  <rect x="55" y="46" width="5" height="24" rx="2" fill="#72dfdf" />
+  <text x="76" y="65" fill="#a4d7e5" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">HITMA / SINCE 1990</text>
+  <text x="55" y="133" fill="#ffffff" font-family="Microsoft YaHei,PingFang SC,Noto Sans CJK SC,sans-serif" font-size="48" font-weight="700">哈尔滨工业大学</text>
+  <text x="55" y="198" fill="#ffffff" font-family="Microsoft YaHei,PingFang SC,Noto Sans CJK SC,sans-serif" font-size="48" font-weight="700">航模协会</text>
+  <path d="M57 230H460" stroke="#5e9bb4" opacity="0.55" />
+  <text x="55" y="270" fill="#cae0e9" font-family="Microsoft YaHei,PingFang SC,Noto Sans CJK SC,sans-serif" font-size="23">飞行器设计 · 自主控制 · 工程实践</text>
+  <g transform="translate(915 151) rotate(-24)" fill="none" stroke="#b8eaf1" stroke-width="2.3" stroke-linejoin="round">
+    <path d="M0-100C7-94 10-83 10-66V-22L113 33V49L11 17V69L40 89V101L0 89L-40 101V89L-11 69V17L-113 49V33L-10-22V-66C-10-83-7-94 0-100Z" fill="#72c6d4" fill-opacity="0.13" />
+    <path d="M0-94V87M-78 35H78M-22 88H22" stroke-width="1" opacity="0.5" />
+  </g>
+  <g transform="translate(1090 248)" fill="none" stroke="#79d9dd" stroke-width="2" opacity="0.9">
+    <path d="M-27-23L27 23M27-23L-27 23" />
+    <rect x="-12" y="-12" width="24" height="24" rx="7" fill="#102c42" />
+    <ellipse cx="-34" cy="-29" rx="23" ry="8" /><ellipse cx="34" cy="-29" rx="23" ry="8" />
+    <ellipse cx="-34" cy="29" rx="23" ry="8" /><ellipse cx="34" cy="29" rx="23" ry="8" />
+  </g>
+  <g transform="translate(709 207) rotate(18)" fill="none" stroke="#89b6cc" stroke-width="1.7" opacity="0.75">
+    <path d="M0-42C11-29 13-10 13 21H-13C-13-10-11-29 0-42ZM-13 8L-25 29L-12 24M13 8L25 29L12 24M-8 27L0 44L8 27" />
+    <circle cy="-10" r="5" />
+  </g>
+</svg>
